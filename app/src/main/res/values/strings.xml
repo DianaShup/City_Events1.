@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">City Events</string>
+
+    <string name="forgetYourPassword"><u>Forgot your password?</u></string>
+    <string name="createAcc"><u>Create new</u></string>
+</resources>

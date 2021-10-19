@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:foregroundTint="@color/white">
+
+
+
+    <TextView
+        android:id="@+id/CityEventsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  City\nEvents"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="91dp"
+
+
+        />
+
+    <View
+
+        android:id="@+id/login_form"
+        android:layout_width="290dp"
+        android:layout_height="385dp"
+        android:background="@drawable/shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/loginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="193dp"
+        android:layout_height="29dp"
+        android:background="@drawable/text_field_shape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/blur_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="193dp"
+        android:layout_height="29dp"
+        android:background="@drawable/text_field_shape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/blur_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="60"
+        android:background="@drawable/text_field_shape"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+
+        android:id="@+id/forgetYourPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/forgetYourPassword"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="481dp"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/haventAnAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haven't an account yet?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="509dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/createAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/createAcc"
+        android:textColor="@color/green"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <ImageView
+        android:id="@+id/facebookIcon"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <ImageView
+        android:id="@+id/googleIcon"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <ImageView
+        android:id="@+id/twitterIcon"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/twitter"
+        tools:layout_editor_absoluteY="558dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
